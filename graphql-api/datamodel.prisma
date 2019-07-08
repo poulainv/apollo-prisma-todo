@@ -1,0 +1,12 @@
+type User {
+  id: ID! @id
+  name: String!
+  todos: [Todo!]!
+}
+
+type Todo {
+  id: ID! @id
+  text: String!
+  isChecked: Boolean! @default(value: false)
+  author: User @relation(link: INLINE)
+}

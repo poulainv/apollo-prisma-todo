@@ -1,0 +1,30 @@
+type Query {
+  completedTodos: [Todo!]!
+  todo(TodoId: ID!): Todo
+  todos: [Todo!]!
+  todosByUser(userId: ID!): [Todo!]!
+}
+
+type Mutation {
+  createUser(name: String!): User
+  createTodo(text: String!, userId: ID!): Todo
+  toggleTodo(todoId: ID!, isChecked: Boolean): Todo
+  deleteTodo(todoId: ID!): Todo
+}
+
+type User {
+  id: ID! 
+  name: String!
+  todos: [Todo!]!
+}
+
+type Todo {
+  id: ID!
+  text: String!
+  isChecked: Boolean!
+  author: User
+}
+
+type Subscription {
+  todo: Todo
+}

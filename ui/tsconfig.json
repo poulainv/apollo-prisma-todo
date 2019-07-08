@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "src"
+  ],
+  "paths": {
+    "@material-ui/core": ["./packages/material-ui/src"],
+    "@material-ui/core/*": ["./packages/material-ui/src/*"],
+    "@material-ui/lab": ["./packages/material-ui-lab/src"],
+    "@material-ui/lab/*": ["./packages/material-ui-lab/src/*"],
+    "@material-ui/styles": ["./packages/material-ui-styles/src"],
+    "@material-ui/styles/*": ["./packages/material-ui-styles/src/*"],
+    "@material-ui/system": ["./packages/material-ui-system/src"],
+    "@material-ui/types": ["./packages/material-ui-types"],
+    "test/*": ["./test/*"]
+  }
+}

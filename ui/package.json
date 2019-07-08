@@ -1,0 +1,63 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.0.0-rc.0",
+    "@material-ui/icons": "^4.2.1",
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.8",
+    "@types/react": "16.8.20",
+    "@types/react-dom": "16.8.4",
+    "apollo-boost": "^0.4.3",
+    "core-util-is": "^1.0.2",
+    "fp-ts": "^1.19.1",
+    "graphql": "^14.4.2",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-apollo-hooks": "^0.4.5",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "source-map-explorer": "^2.0.0",
+    "tslint": "^5.17.0",
+    "typescript": "3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scr  ipts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "browserslist": "4.6.2",
+    "caniuse-lite": "1.0.30000974"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "graphql-code-generator": "^0.18.2",
+    "graphql-codegen-typescript-react-apollo-template": "^0.18.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
+  }
+}
